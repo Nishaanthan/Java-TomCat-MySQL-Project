@@ -1,0 +1,146 @@
+23-Dec-2017 20:30:39.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+23-Dec-2017 20:30:39.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+23-Dec-2017 20:30:39.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+23-Dec-2017 20:30:39.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Dec-2017 20:30:39.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_144\jre
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\javaProject\tomcat
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\javaProject\tomcat
+23-Dec-2017 20:30:39.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\javaProject\tomcat\conf\logging.properties
+23-Dec-2017 20:30:39.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Dec-2017 20:30:39.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|knbrothers
+23-Dec-2017 20:30:39.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Dec-2017 20:30:39.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Dec-2017 20:30:39.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\javaProject\tomcat
+23-Dec-2017 20:30:39.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\javaProject\tomcat
+23-Dec-2017 20:30:39.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\javaProject\tomcat\temp
+23-Dec-2017 20:30:39.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+23-Dec-2017 20:30:39.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23-Dec-2017 20:30:39.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-Dec-2017 20:30:39.907 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+23-Dec-2017 20:30:40.099 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Dec-2017 20:30:40.351 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2017 20:30:40.355 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2017 20:30:40.359 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Dec-2017 20:30:40.359 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1834 ms
+23-Dec-2017 20:30:40.394 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Dec-2017 20:30:40.394 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+23-Dec-2017 20:30:40.406 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ABCSoftwareCompany.xml]
+23-Dec-2017 20:30:40.514 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ABCSoftwareCompany]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1842)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5ee6e789]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4860)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4992)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\javaProjects\javaProject3\ABCSoftwareCompany3\target\ABCSoftwareCompany-1.0-SNAPSHOT] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:745)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:703)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+23-Dec-2017 20:30:40.515 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ABCSoftwareCompany.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ABCSoftwareCompany]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1842)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+23-Dec-2017 20:30:40.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ABCSoftwareCompany.xml] has finished in [130] ms
+23-Dec-2017 20:30:40.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 20:30:41.957 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Dec-2017 20:30:42.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [1,466] ms
+23-Dec-2017 20:30:42.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\javaProject\tomcat\webapps\docs]
+23-Dec-2017 20:30:42.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\javaProject\tomcat\webapps\docs] has finished in [30] ms
+23-Dec-2017 20:30:42.037 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\javaProject\tomcat\webapps\examples]
+23-Dec-2017 20:30:42.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\javaProject\tomcat\webapps\examples] has finished in [448] ms
+23-Dec-2017 20:30:42.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\javaProject\tomcat\webapps\host-manager]
+23-Dec-2017 20:30:42.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\javaProject\tomcat\webapps\host-manager] has finished in [46] ms
+23-Dec-2017 20:30:42.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\javaProject\tomcat\webapps\manager]
+23-Dec-2017 20:30:42.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\javaProject\tomcat\webapps\manager] has finished in [92] ms
+23-Dec-2017 20:30:42.627 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Dec-2017 20:30:42.634 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+23-Dec-2017 20:30:42.637 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2277 ms
+23-Dec-2017 20:30:58.706 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 20:30:58.808 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 20:30:59.031 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [222] ms
+23-Dec-2017 20:30:59.049 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 20:52:07.508 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Dec-2017 20:52:09.633 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Dec-2017 20:52:09.668 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Dec-2017 20:52:09.877 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Dec-2017 20:52:23.375 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 20:52:23.415 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 20:52:23.955 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [541] ms
+23-Dec-2017 20:52:23.963 INFO [http-nio-8080-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 20:53:03.705 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 20:53:03.723 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 20:53:03.878 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [156] ms
+23-Dec-2017 20:53:03.883 INFO [http-nio-8080-exec-27] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 20:55:42.276 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:06:56.543 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:06:56.756 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [213] ms
+23-Dec-2017 21:06:56.760 INFO [http-nio-8080-exec-44] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:31:34.535 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:32:17.214 INFO [http-nio-8080-exec-53] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:32:17.515 INFO [http-nio-8080-exec-53] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [301] ms
+23-Dec-2017 21:32:17.522 INFO [http-nio-8080-exec-41] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:34:28.831 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:35:01.997 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:35:02.254 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [257] ms
+23-Dec-2017 21:35:02.259 INFO [http-nio-8080-exec-53] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:40:34.630 INFO [http-nio-8080-exec-60] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:40:34.646 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:40:34.834 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [188] ms
+23-Dec-2017 21:40:34.837 INFO [http-nio-8080-exec-65] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:41:04.886 INFO [http-nio-8080-exec-64] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:41:04.897 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:41:05.078 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [180] ms
+23-Dec-2017 21:41:05.081 INFO [http-nio-8080-exec-71] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:51:09.071 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Dec-2017 21:51:09.413 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Dec-2017 21:51:26.397 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:51:26.416 INFO [http-nio-8080-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:51:26.780 INFO [http-nio-8080-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [363] ms
+23-Dec-2017 21:51:26.784 INFO [http-nio-8080-exec-84] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:52:06.957 INFO [http-nio-8080-exec-84] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:52:06.971 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:52:07.127 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [156] ms
+23-Dec-2017 21:52:07.131 INFO [http-nio-8080-exec-87] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 21:54:37.470 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 21:54:37.488 INFO [http-nio-8080-exec-89] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 21:54:37.733 INFO [http-nio-8080-exec-89] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [245] ms
+23-Dec-2017 21:54:37.740 INFO [http-nio-8080-exec-85] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 22:01:28.964 INFO [http-nio-8080-exec-102] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 22:01:28.978 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 22:01:29.216 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [238] ms
+23-Dec-2017 22:01:29.219 INFO [http-nio-8080-exec-101] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 22:01:31.292 INFO [http-nio-8080-exec-95] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 22:01:31.307 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 22:01:31.500 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [193] ms
+23-Dec-2017 22:01:31.504 INFO [http-nio-8080-exec-96] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+23-Dec-2017 22:01:33.692 INFO [http-nio-8080-exec-106] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+23-Dec-2017 22:01:33.702 INFO [http-nio-8080-exec-108] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml]
+23-Dec-2017 22:01:33.917 INFO [http-nio-8080-exec-108] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\javaProject\tomcat\conf\Catalina\localhost\ROOT.xml] has finished in [215] ms
+23-Dec-2017 22:01:33.920 INFO [http-nio-8080-exec-98] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
